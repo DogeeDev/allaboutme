@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
+
+@keyframes pfp1{
+  from {
+   border: 7px solid #dadada; 
+  }
+  to {
+    border: 5px solid #97b3c3;
+  }
+}
+@keyframes pfp2{
+  from {
+    border: 5px solid #97b3c3;
+  }
+  to {
+    
+   border: 7px solid #dadada; 
+  }
+}
+
+.pfp {
+  border-top-left-radius: 50% 50%;
+  border-top-right-radius: 50% 50%;
+  border-bottom-right-radius: 50% 50%;
+  border-bottom-left-radius: 50% 50%;
+  border: 7px solid #dadada;
+  border-radius: 50%;
+}
+
+.pfp::hover {
+  animation: pfp1 5s 0
+}
+
+body {
+  color: #fff;
+  background-color: #1a1a2d
+}
+
+p,h1,h2,h3,h4,h5,h6 {
+  font-family: 'Roboto', sans-serif
+}
+
+.name {
+  font-family: 'Open Sans', sans-serif;
+}
+.sociallinks {
+  padding: 0;
+  margin: 0;
+}
+
+.l:link, .l:visited {
+  color: #00ffd5;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.icolink
+{
+   color: #fff;
+  padding: 0;
+  margin: 0;
+   text-decoration: none; 
+   background-color: none;
+}
+.sociallinks {
+  white-space: nowrap;
+}
+
+.noselect {
+  user-select: none
+}
+
+#topButton {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none; 
+  background-color: #00b3ff; 
+  color: white;
+  cursor: pointer; 
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+#topButton:hover {
+  background-color: #0056b3;
+}
+
+smally {
+  font-size: 10px;
+}
