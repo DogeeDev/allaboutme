@@ -18,6 +18,10 @@
   }
 }
 
+* {
+  user-select: none
+}
+
 .pfp {
   border-top-left-radius: 50% 50%;
   border-top-right-radius: 50% 50%;
@@ -33,7 +37,8 @@
 
 body {
   color: #fff;
-  background-color: #1a1a2d
+  background-color: #1a1a2d;
+  cursor: url(mouse.png);
 }
 
 p,h1,h2,h3,h4,h5,h6 {
